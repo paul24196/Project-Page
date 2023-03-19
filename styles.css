@@ -1,0 +1,424 @@
+nav {
+    font-size: large;
+}
+
+.navbar-brand {
+    font-size: 30px !important;
+}
+
+.nav-item a {
+    font-weight: 400;
+}
+
+/* section 1 */
+
+#slide h1 {
+    text-transform: uppercase;
+    font-size: 60px;
+    line-height: 80px;
+    width: 50%;
+    margin-left: 100px;
+    margin-bottom: 34px;
+    margin-top: 30px;
+    color: #ffffff;
+    animation: fadeInDownBig;
+    animation-duration: 2s;
+}
+
+#slide p {
+    font-size: 20px;
+    line-height: 34px;
+    width: 50%;
+    margin-left: 100px;
+    color: #ffffff;
+    animation: fadeInDownBig;
+    animation-duration: 2s;
+}
+
+.cb {
+    margin-left: 100px;
+    margin-top: 30px;
+    padding: 15px 25px;
+    font-weight: 600;
+    animation: fadeInUpBig;
+    animation-duration: 2s;
+}
+
+.img1 {
+    background-image: url("https://www.hillsdale.edu/wp-content/uploads/2017/02/Office-Environment-.jpg");
+    min-height: 520px;
+}
+
+.img2 {
+    background-image: url("https://www.incimages.com/uploaded_files/image/1920x1080/getty_690855708_331314.jpg");
+    min-height: 520px;
+}
+
+.img3 {
+    background-image: url("https://wallpapercave.com/wp/wp2316798.jpg");
+    min-height: 520px;
+}
+
+.btt {
+    padding-right: 30px;
+}
+
+/* section 2 */
+
+#no2 {
+    margin: 60px 80px;
+}
+
+.staff-img {
+    padding-top: 40px;
+    visibility: hidden;    
+}
+
+.staff-ani {
+    visibility: visible;
+    animation: fadeInLeft;
+    animation-duration: 3s;
+}
+
+.staff {
+    width: 75%;
+    height: 390px;
+}
+
+.staff1 {
+    width: 75%;
+    position: relative;
+    left: 80px;
+    bottom: 150px;
+}
+
+.p1 {
+    color: #9b9b9b;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 20px;
+}
+
+#no2 h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#no2 p {
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #9b9b9b;
+}
+
+#no2 h5 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+#no2 button {
+    background-color: #cfb062;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 700;
+    padding: 14px 40px;
+    margin-top: 20px;
+}
+
+/* section 3 */
+
+#no3 {
+    margin: 60px 0;
+    
+}
+
+.contact {
+    background-color: #cfb062;
+}
+
+.contact-title {
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    color: #ffffff;
+    font-weight: 700;
+
+}
+
+.contact-title h4  {
+    font-size: 20px;
+}
+
+.contact-title h3 {
+    font-size: 40px;
+}
+
+.contact-img {
+    padding-top: 30px;
+    margin-left: 100px;
+}
+
+.contact-img img {
+    width: 360px;
+    height: 250px;
+}
+
+.boxx {
+    display: flex;
+    justify-content: space-between;
+    line-height: 31px;
+    
+}
+
+.boxx h5 {
+    font-size: 27px;
+    font-weight: 600;
+    margin-bottom: 22px;
+}
+
+.boxx p {
+    font-size: 18px;
+    font-weight: 700;
+    color: #9b9b9b;
+}
+
+.top {
+    position: relative;
+    left: 130px;
+    bottom: 50px;
+}
+
+.mid {
+    position: relative;
+    left: 40px;
+    bottom: 50px;
+
+}
+
+.bot {
+    position: relative;
+    right: 55px;
+    bottom: 50px;
+
+}
+
+.box {
+    border: 2px solid #ffff7c;
+    background-color: #ffffff;
+    width: 320px;
+    height: 260px;
+    padding: 30px 15px 0;
+}
+
+/* section Animation */
+
+.tran {
+    visibility: hidden;
+}
+
+.tran1{
+    visibility: hidden;
+}
+
+.anime {
+    visibility: visible;
+    animation: fadeInUp;
+    animation-duration: .5s;
+}
+
+/* section 4 */
+
+.service {
+    text-align: center;
+    /* padding-top: 50px; */
+    margin-bottom: 50px;
+}
+
+.service h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #9b9b9b;
+}
+
+.service h2 {
+    font-size: 40px;
+    font-weight: 700;
+
+}
+
+.services {
+    padding-top: 30px;
+    margin-left: 80px;
+}
+
+.services img {
+    width: 280px;
+    height: 150px;
+}
+
+.icon {
+    margin-left: 150px;
+    position: relative;
+    bottom: 50px;
+}
+
+.icon img {
+    border: 20px solid #ffffff;
+    border-radius: 100%;
+    width: 50%;
+    position: relative;
+}
+
+.icon1 {
+    right: 50px;
+}
+
+.icon2 {
+    right: 30px;
+}
+
+.icon3 {
+    right: 15px;
+}
+
+.text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text h5 {
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+.text p {
+    font-size: 16px;
+    padding-top: 18px;
+    padding-bottom: 12px;
+    line-height: 26px;
+    color: #9b9b9b;
+}
+
+.text div {
+    width: 280px;
+    bottom: 72px;
+    padding: 60px 25px 5px;
+    position: relative;
+}
+
+.top1 {
+    left: 92px;
+}
+
+.top2 {
+    left: 56px;
+}
+
+.top3 {
+    left: 20px;
+}
+
+.top4 {
+    right: 16px;
+}
+
+/* section 5 */
+
+#no5 {
+    text-align: center;
+    padding: 100px 120px 80px;
+    background-color: #cfb062;
+}
+
+.d1 {
+    margin-top: 40px;
+}
+
+
+/* section 6 */
+
+#no6 {
+    
+}
+
+.review {
+    min-height: 500px;
+    font-size: 2rem;
+    padding: 90px 100px 80px 210px;
+}
+
+.review img {
+    position: absolute;
+    right: 40px;
+}
+
+/* section 7 */
+
+.b {
+    background-color: black;
+    padding-top: 5px;
+}
+
+.end1 {
+    display: flex;
+    margin: 80px 150px 40px;
+    padding: 32px 29px;
+    color: #ffffff;
+    border: 1px solid #322d3b;
+}
+
+.end1 h4 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.end1 button {
+    margin-left: 270px;
+    background-color: #cfb062;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 500;
+    padding: 14px 20px;
+}
+
+.end {
+    display: flex;
+}
+
+.logo {
+    margin-left: 100px;
+    width: 250px;
+}
+
+.logo p {
+    padding-top: 30px;
+}
+
+.links {
+    position: relative;
+    left: 100px;
+}
+
+.links h5 {
+    padding-bottom: 30px;
+}
+
+
+.con {
+    position: relative;
+    left: 200px;
+}
+
+.con h5 {
+    padding-bottom: 30px;
+}
+
+footer {
+    background-color: #100d17;
+    padding: 30px 0 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #aea8b9;
+}
